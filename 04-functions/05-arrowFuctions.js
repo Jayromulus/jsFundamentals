@@ -13,5 +13,11 @@ coffee();
 
 // conside body
 // considce bodies do not need parentheses, unless you have more than ONE parameter
-let apples = (x, y) =>console.log(`There are ${x} apples and ${y} Pears.`);
+// cannot run n multilple lines, does not like line breaks
+// return is implied
+let apples = (x, y) => console.log(`There are ${x} apples and ${y} Pears.`);
 apples(10, 5);
+
+// Block body
+// allows line breaks, meaning more than one line
+let apples = (x, y) => { console.log(`There are ${x} apples and ${y} Pears.`) };

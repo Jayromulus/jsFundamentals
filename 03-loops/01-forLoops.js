@@ -10,6 +10,11 @@ for (i = 0; i < 3; i++) {
     console.log(vacationSpots[i]);
 }
 
+// can omit statement 1 if the variable is made outside of the loop
+
+// can imot statement 2 if you provide a break inside the loop, otherwse the lop never ends
+
+// can omit 3rd statement if you iterate within the loop
 
 // Types of lops
 /*
